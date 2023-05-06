@@ -1,0 +1,52 @@
+[
+    {
+        "id": "description",
+        "cells": [
+            {
+                "columnId": "en",
+                "sourceStatus": "readyForTranslation",
+                "value": "Hello1 From Gridly!"
+            },
+            {
+                "columnId": "ja",
+                "dependencyStatus": "outOfDate",
+                "value": "Gridlyからこんにちは！"
+            },
+            {
+                "columnId": "fr",
+                "dependencyStatus": "upToDate",
+                "value": "hbjhbjhb"
+            },
+            {
+                "columnId": "sv",
+                "dependencyStatus": "outOfDate",
+                "value": "Hej från Gridly!"
+            }
+        ]
+    },
+    {
+        "id": "ip1nibr7jnn49",
+        "cells": [
+            {
+                "columnId": "en",
+                "sourceStatus": "readyForTranslation",
+                "value": "Hello"
+            },
+            {
+                "columnId": "ja",
+                "dependencyStatus": "upToDate",
+                "value": "からこんにちは！"
+            },
+            {
+                "columnId": "fr",
+                "dependencyStatus": "upToDate",
+                "value": "vgjh"
+            },
+            {
+                "columnId": "sv",
+                "dependencyStatus": "upToDate",
+                "value": "Hej från"
+            }
+        ]
+    }
+]
