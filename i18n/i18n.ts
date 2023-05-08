@@ -1,6 +1,5 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
-import GridlyBackend, { GridlyBackendOptions } from "i18next-gridly-backend";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import demo from "./demo.json";
 
@@ -29,11 +28,6 @@ interface Translations {
 }
 
 const fallback: Item[] = demo;
-
-const gridlyOptions: GridlyBackendOptions = {
-  apiKey: "VVHfJDj4lVlAvs",
-  viewId: "ewvj03vkqple1jo",
-};
 
 const convertToTranslations = (data: Item[]): Translations => {
   const translations: Translations = {};
@@ -77,14 +71,12 @@ const getTranslations = async () => {
 };
 
 i18n
-  .use(GridlyBackend)
   .use(initReactI18next)
   .init({
     lng: "en",
     compatibilityJSON: "v3",
     fallbackLng: "en",
     debug: true,
-    backend: gridlyOptions,
     interpolation: {
       escapeValue: false,
     },
